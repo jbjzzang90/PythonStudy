@@ -1,1 +1,1 @@
-# PythonStudy
+# PythonStudy 개인 
