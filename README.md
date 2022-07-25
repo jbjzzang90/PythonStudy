@@ -1,1 +1,1 @@
-# PythonStudy 개인 
+# PythonStudy 개인 공부용
