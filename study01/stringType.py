@@ -2,6 +2,9 @@
 
 
 # 문자열 생성
+from pyrsistent import l
+
+
 str1  = "I am Python"
 str2  = 'Python'
 str3  = """How are you?"""
@@ -96,4 +99,39 @@ print(str(True),type(str(True)))# 결과 값 : True <class 'str'> (문자 True�
 print("Capitalluze", str_01.capitalize())        # 첫번쨰 문자을 대문자로 변경하는 함수
 print("endswith? : ", str_02.endswith("e"))      # 마지막 문자의 값이 무었인지 True & Flase로 반환
 print("replace", str_01.replace("thon", 'Good')) # 해당 결과값에 thon이 포함되있으면 Good으로 변경하는 함수
-print("sorted: ", sorted(str_01))
+print("sorted: ", sorted(str_01))                # 정렬해서 List형태로 반환함
+print("split : ", str_04.split(' '))             # java Split과 비슷 구분자를 넣어서 배열형태로 반환
+
+
+# 반복(시퀀스)
+im_str =  "Good Boy!"
+
+print(dir(im_str))  # __iter__
+
+# 출력
+
+for i in im_str:
+    print(i)
+
+
+# 슬라이싱
+str_sl = "Nice Python"
+
+
+# 슬라이싱 연습
+print(str_sl[0:3])            # 0 1 2
+print(str_sl[5:])             # [5 :11]
+print(str_sl[:len(str_sl)])   # str_sl[:11]
+print(str_sl[:len(str_sl)-1]) # str_sl[:10]
+print(str_sl[1:4:2])          
+print(str_sl[-5:])            # 출력 값 :  ython
+print(str_sl[1:-2])
+print(str_sl[::2])
+print(str_sl[::-1])
+
+
+# 아스키 코드(또는 유니코드)
+a = 'z'
+
+print(ord(a))
+print(chr(122))
