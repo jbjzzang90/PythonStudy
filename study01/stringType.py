@@ -132,6 +132,5 @@ print(str_sl[::-1])
 
 # 아스키 코드(또는 유니코드)
 a = 'z'
-
-print(ord(a))
-print(chr(122))
+print(ord(a))                  # 아스키 코드
+print(chr(122))                # 문자로
