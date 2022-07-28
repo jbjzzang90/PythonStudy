@@ -59,7 +59,7 @@ print(t_s1)                     # 결과 값 : Click    Start!
 print(t_s2)                     # 결과 값 : New Line 줄 바꿈  Check!
 print()
 
-# Raw String 앞에r 추가하면 이스케이프 문자가 적용되지 않는다.
+# Raw String 앞에r 추가하면 이스케이프 문자가 적용되지 않는다 .
 raw_s1 = r'D:\python\test'
 print(raw_s1)                   # 결과 값 : D:\python\test
 print()
